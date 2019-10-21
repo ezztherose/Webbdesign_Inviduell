@@ -1,0 +1,59 @@
+#wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: 9;
+}
+
+
+
+.menu
+{
+    grid-column: 2/10;
+    grid-row: 1;
+
+    background: black;
+    font-size: 25px;
+}
+
+.menu ul
+{
+    display: inline-flex;
+    margin: 20px;
+}
+
+.menu ul li
+{
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+/* Setting menu text color*/
+li a
+{
+    list-style-type: none;
+    text-decoration: none;
+    color: #777;
+        text-align: center;
+}
+
+#active_menu
+{
+    color: white;
+    border-bottom: 3px solid aqua;
+}
+
+li a:hover
+{
+    border-bottom: 3px solid aqua;
+}
+
+/* Logo - imgsize */
+#logo_image
+{
+    width: 100%;
+    height: 100%;
+
+
+}
