@@ -115,6 +115,23 @@ ul {
   background-color: #333;
 }
 
+.li_replace{
+  float: left;
+  padding: 10px;
+  margin: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.li_replace a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
 li {
   float: left;
   padding: 10px;
@@ -370,7 +387,7 @@ li a:hover {
     background-color: #333;
   }
 
-  .big_menu li a{
+  .big_menu a{
     display: none;
   }
   
