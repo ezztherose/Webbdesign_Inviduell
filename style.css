@@ -138,16 +138,17 @@ li a:hover {
 
 /* Social media icons */
 .social_media{
-    position: relative;
-    float: right;
-
     grid-column: 9/10;
     grid-row: 1;
 }
 
-.social_media{
-    height: 5%;
-    width: 5%;
+
+.social_media a img{
+  width: 5%;
+  height: 5%;
+
+  position: relative;
+  float: right;
 }
 
 .slider_container{
