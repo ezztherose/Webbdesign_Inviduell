@@ -1,5 +1,10 @@
 # Inviduell uppgift
 
+## About - Tillagd about sida 2019-10-22
+- Logga tillagd
+- About -> html, css 
+- Skall det bara vara en enda css sida för alla sidor?
+
 ## Layout index 2019-10-22
 - Fixat till "responsive" index page.
 - Behöver fixa till en logga i index
