@@ -1,0 +1,442 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* New css */
+
+body {
+  margin: 0px 0px 30px 0px;
+  background-color: lightblue;
+}
+footer{
+  margin: auto;
+}
+.wrapper {
+    display: grid;
+    grid-gap: 5px;
+    background-color: lightblue;
+    color: #444;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.logo{
+    position: relative;
+    float: left;
+
+    height: 5%;
+    width: 5%;
+}
+
+.box{
+    color: #fff;
+    border-radius: 0px;
+    
+    border-color: blue;
+    padding: 0px;
+    font-size: 150%;
+    text-align: center;
+}
+
+.nav_bar{
+    grid-column: 1 / 10;
+    grid-row: 1;
+}
+
+.slider_bar{
+    grid-column: 1/10 ;
+    grid-row: 5;
+}
+
+/* Navbar */
+li {
+  display: inline;
+
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  padding: 10px;
+  margin: 5px;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+li a:hover {
+  background-color: aquamarine;
+}
+
+/* End of nav_bar */
+
+/* Social media icons */
+ul .social_media{
+    position: relative;
+    float: right;
+}
+
+.social_media{
+    height: 5%;
+    width: 5%;
+}
+
+.slider_container{
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+/* hide pictures from start */
+.mySlides{
+    display: none;
+}
+
+/* show first picture */
+#slide_1{
+    display: block;
+}
+
+/* arrows for slider */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* position på knapparna */
+.next {
+  right: 25%;
+  border-radius: 3px 0 0 3px;
+  top: 50%;
+}
+.prev {
+  left: 25%;
+  border-radius: 3px 0 0 3px;
+  top: 50%;
+}
+
+/* Hoverbakgrund på knapparna */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dotstyle {
+  text-align:center
+}
+
+/* cirkel */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #333;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: aqua;
+}
+
+
+.pictures{
+    width: 50%;
+    height: 50%;
+
+    padding: 5px;;
+}
+
+/* Sub pictures */
+.article_columns{
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+
+    position:relative;
+    margin-top: 3%;
+}
+
+.art{
+  background-color: #777;
+}
+
+.art header{
+  font-size: 2rem;
+}
+
+.art p{
+  font-size: 1rem;
+}
+
+#art_col_1{
+    grid-column: 2/5;
+    grid-row: 8;
+}
+
+#art_col_2{
+    grid-column: 6/9;
+    grid-row: 8/12;
+}
+
+#art_col_3{
+    grid-column: 10/13;
+    grid-row: 8;
+}
+
+.footer_setter{
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;   
+  background-color: #333;
+  color: white;
+}
+
+.footer_setter p{
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.hidden_menu{
+  display: none;
+}
+
+
+/* MEDIA CONVERTION */
+@media (max-width: 1025px){
+
+  .social_media{
+    display: none;
+  }
+
+  .hidden_menu{
+    display: block;
+    float: right;
+    margin-top: 3%;
+    margin-right: 3%;
+  }
+
+  .logo{
+    position: relative;
+    float: left;
+
+    height: 10%;
+    width: 10%;
+  }
+
+  /* ======================= */
+
+  /* ------ Mobile Menu -----*/
+  /* Important styles */
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+  /* ======================= */
+
+  .nav_bar{
+    background-color: #333;
+  }
+
+  .big_menu li a{
+    display: none;
+  }
+  
+  .slider_container{
+    width: 100%;
+    height: auto;
+  }
+
+  .art{
+    grid-gap: 5px;
+  }
+
+  #art_col_1{
+    grid-column: 4/11;
+    grid-row: 3;
+  }
+
+  #art_col_2{
+    grid-column: 4/11;
+    grid-row: 5;
+  }
+
+  #art_col_3{
+    grid-column: 4/11;
+    grid-row: 6;
+  }
+
+  .footer_setter{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: #333;
+    color: white;
+  }
+
+  .footer_setter p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+
+  }
+}
+
+
+@media (max-width: 765px){
+
+  .burger_line{
+    width: 2rem;
+    height: 0.1rem;
+    background-color: white;
+    margin: 10px;
+  }
+
+  .footer_setter{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: #333;
+    color: white;
+  }
+
+  .footer_setter p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+}
+
+
+
+
+
+/*
+.tg  {border-collapse:collapse;border-spacing:0; overflow-x: auto;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+.tg .tg-de2y{border-color:#333333;text-align:left;vertical-align:top}
+*/
