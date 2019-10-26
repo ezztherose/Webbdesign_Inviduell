@@ -2,12 +2,12 @@
 
 ## Nytt 2019-10-26
 - om följand kod inte fungerar, ta bort den
-- <figure>
-      <a href=""><img src="./img/twitter.jpg" alt="twitter"></a>
-    </figure>
-    <figure>
-      <a href=""><img src="./img/instagram.jpg" alt="Instagram"></a>
-    </figure>
+- < figure >
+      < a href="" >< img src="./img/twitter.jpg" alt="twitter" >< /a >
+    </>
+    < figure>
+    < a href="">< img src="./img/instagram.jpg" alt="Instagram"></>
+    </>
 
     denna kod finner man i footer längs ned på index sidan
 - Annars finnns inga fel eller varnigar på hela index sidan...
