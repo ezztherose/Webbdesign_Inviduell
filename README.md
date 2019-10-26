@@ -8,6 +8,8 @@
     <figure>
       <a href=""><img src="./img/instagram.jpg" alt="Instagram"></a>
     </figure>
+
+    denna kod finner man i footer längs ned på index sidan
 - Annars finnns inga fel eller varnigar på hela index sidan...
   Uppdatera resterande sidor så att de uppfyller samma krav
 
