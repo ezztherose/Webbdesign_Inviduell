@@ -255,7 +255,7 @@ li a:hover {
 }
 
 .art{
-  background-color: #777;
+  background-color: #555;
 }
 
 
@@ -270,6 +270,7 @@ li a:hover {
 
 .art p{
   font-size: 1rem;
+  margin: 5px;
 }
 
 #art_col_1{
@@ -300,6 +301,16 @@ li a:hover {
   text-align: center;
   font-size: 1rem;
   margin-top: 10px;
+}
+
+.footer_setter figure a img{
+  display: absolute;
+  float: right;
+  margin-right: 50%;
+  width: 4%;
+  height: 4%;
+
+ 
 }
 
 .hidden_menu{
