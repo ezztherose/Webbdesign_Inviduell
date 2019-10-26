@@ -17,7 +17,7 @@
 
     <!-- Min egenskapade cssfil för projekt -->
     <link rel="stylesheet" href="../style.css">
-    <link rel="icon" href="./img/logo.png" type="image/icon type">
+    <link rel="icon" href="../img/logo.png">
 
     <!-- Scripts -->
     <script src="../js/script.js"></script>
@@ -38,32 +38,35 @@
             <nav class="hidden_menu">
                 <div id="mySidenav" class="sidenav">
                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                    <a href="../pages/about.html">Home</a>
+                    <a href="../index.html">Home</a>
                     <a href="#">?</a>
                     <a href="./pages/about.html">About</a>
                     <a href="#">Contact</a>
                 </div>
-
                 <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             </nav>
 
             <!-- Menu -->
-
-            <ul class="big_menu">
-                <img src="../img/logo.png" class="logo" width="100%" height="100%" alt="logo"
-                    onclick="window.location.href='../index.html'">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="">Freediving</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="">Contact</a></li>
-
-                <figure class="social_media">
-                    <a href=""><img src="../img/twitter.jpg" width="auto" height="100%" alt="twitter"></a>
+            <nav class="nav_bar">
+                <figure>
+                    <img src="../img/logo.png" class="logo" width="100%" height="100%" alt="logo"
+                        onclick="window.location.href='../index.html'">
                 </figure>
-                <figure class="social_media">
-                    <a href=""><img src="../img/instagram.jpg" width="auto" height="100%" alt="Instagram"></a>
-                </figure>
-            </ul>
+
+                <nav class="big_menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="">Freediving</a></li>
+                    <li><a href="../pages/about.html">About</a></li>
+                    <li><a href="">Contact</a></li>
+                    <figure class="social_media">
+                        <a href=""><img src="../img/twitter.jpg" width="100%" height="100%" alt="twitter"></a>
+                    </figure>
+                    <figure class="social_media">
+                        <a href=""><img src="../img/instagram.jpg" width="100%" height="100%" alt="Instagram"></a>
+                    </figure>
+                </nav>
+            </nav>
+
         </nav>
 
         <section class="article_text">
@@ -78,7 +81,7 @@
         </section>
     </section>
 
-    
+
 
     <footer class="footer_setter">
         <p>Read more at:</p>

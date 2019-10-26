@@ -43,57 +43,60 @@
           <a href="./pages/about.html">About</a>
           <a href="#">Contact</a>
         </div>
-        
+
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
       </nav>
-        
-        <!-- Menu -->
 
-      <ul class="big_menu">
+      <!-- Menu -->
 
-
-        <img src="./img/logo.png" class="logo" width="100%" height="100%" alt="logo"
+      <nav class="nav_bar">
+        <figure>
+          <img src="./img/logo.png" class="logo" width="100%" height="100%" alt="logo"
             onclick="window.location.href='./index.html'">
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="">Freediving</a></li>
-        <li><a href="./pages/about.html">About</a></li>
-        <li><a href="">Contact</a></li>
+        </figure>
 
-        <figure class="social_media">
-          <a href=""><img src="./img/twitter.jpg" width="100%" height="100%" alt="twitter"></a>
-        </figure>
-        <figure class="social_media">
-          <a href=""><img src="./img/instagram.jpg" width="100%" height="100%" alt="Instagram"></a>
-        </figure>
-      </ul>
+        <nav class="big_menu">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="">Freediving</a></li>
+          <li><a href="./pages/about.html">About</a></li>
+          <li><a href="">Contact</a></li>
+          <figure class="social_media">
+            <a href=""><img src="./img/twitter.jpg" width="100%" height="100%" alt="twitter"></a>
+          </figure>
+          <figure class="social_media">
+            <a href=""><img src="./img/instagram.jpg" width="100%" height="100%" alt="Instagram"></a>
+          </figure>
+        </nav>
+      </nav>
+
     </nav>
 
     <!-- Slider -->
     <section class="box slider_bar">
       <div class="slider_container">
         <figure class="mySlides fade" id="slide_1">
-          <img class="pictures" src="./img/slider_1.jpg"  alt="slide_1">
+          <img class="pictures" src="./img/slider_1.jpg" alt="slide_1">
         </figure>
-        
+
         <figure class="mySlides fade">
-          <img class="pictures" src="./img/slider_2.jpg"  alt="slide_2">
+          <img class="pictures" src="./img/slider_2.jpg" alt="slide_2">
         </figure>
-        
+
         <figure class="mySlides fade">
           <img class="pictures" src="" alt="slide_3">
         </figure>
-        
+
         <!-- Nästa och tidigare knapp -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        
-        <!-- Prickar under bilden -->
-        <div class="dotstyle">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
+      </div>
+
+      <!-- Prickar under bilden -->
+      <div class="dotstyle">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
       </div>
     </section>
   </section>
