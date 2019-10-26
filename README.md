@@ -1,5 +1,12 @@
 # Inviduell uppgift
 
+## ReWork - Allt är omgjort
+Dessa punkter är uppfyllda efter ny rework:
+- Boilerplate 
+- CSS-reset
+- Mobile first
+  
+
 ## About - Tillagd about sida 2019-10-22
 - Logga tillagd
 - About -> html, css 
