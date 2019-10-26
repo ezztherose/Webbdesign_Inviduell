@@ -1,12 +1,22 @@
 # Inviduell uppgift
 
+## Nytt 2019-10-26
+- om följand kod inte fungerar, ta bort den
+- <figure>
+      <a href=""><img src="./img/twitter.jpg" alt="twitter"></a>
+    </figure>
+    <figure>
+      <a href=""><img src="./img/instagram.jpg" alt="Instagram"></a>
+    </figure>
+- Annars finnns inga fel eller varnigar på hela index sidan...
+  Uppdatera resterande sidor så att de uppfyller samma krav
+
 ## ReWork - Allt är omgjort
 Dessa punkter är uppfyllda efter ny rework:
 - Boilerplate 
 - CSS-reset
 - Mobile first
   
-
 ## About - Tillagd about sida 2019-10-22
 - Logga tillagd
 - About -> html, css 
