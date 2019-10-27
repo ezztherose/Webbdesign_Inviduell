@@ -343,7 +343,7 @@ ul {
 
 /* Form styling */
 input[type=text], select, textarea {
-  width: 100%;
+  width: 95%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -362,7 +362,7 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  float: right;
+  width: 20%;
 }
 
 input[type=submit]:hover {
@@ -459,6 +459,43 @@ input[type=submit]:hover {
 /* ======================================== */
 @media (max-width: 1025px){
 
+  /* Index */
+  .art{
+    grid-gap: 5px;
+  }
+
+  #art_col_1{
+    grid-column: 4/11;
+    grid-row: 3;
+  }
+
+  #art_col_2{
+    grid-column: 4/11;
+    grid-row: 5;
+  }
+
+  #art_col_3{
+    grid-column: 4/11;
+    grid-row: 6;
+  }
+
+  .footer_setter{
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    height: 2.5rem;   
+    background-color: #333;
+    color: white;
+  }
+
+  .footer_setter p{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 10px;
+
+  }
+  /* ------ */
+
   .social_media{
     display: none;
   }
@@ -523,14 +560,17 @@ input[type=submit]:hover {
 
   .social_mini{
     display: block;
-
+    padding: 1rem;
+    text-align: center;
+    position: relative;
   }
 
   .social_mini img{
-    width: 4%;
-    height: 4%;
-    position: relative;
-    text-align: center;
+    width: 5%;
+    height: 5%;
+
+    top: 90%;
+    left: 50%;
   }
 
   .logo{
