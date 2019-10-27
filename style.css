@@ -280,17 +280,6 @@ ul {
   margin-top: 10px;
 }
 
-.footer_setter figure a img{
-  display: block;
-  position: absolute;
-  float: right;
-  margin-right: 50%;
-  width: 4%;
-  height: 4%;
-
- 
-}
-
 .hidden_menu{
   display: none;
 }
