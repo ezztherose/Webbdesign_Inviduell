@@ -5,6 +5,8 @@
   Behöver finputsat lite mer, annars så är det bra
 - About - Fixa design
   kladda upp layout samt skriv den simplelt
+- Fixat contact sidan
+  Den är responsiv och fungerar bra
 
 ## Nytt 2019-10-26
 - om följand kod inte fungerar, ta bort den
