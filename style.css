@@ -429,6 +429,9 @@ input[type=submit]:hover {
 .freediving_art h3 {
   font-size: 2rem;
   text-align: center;
+  text-decoration: underline;
+  padding: 1rem;
+  margin: 1rem;
 }
 
 #freediving_1{
@@ -458,12 +461,6 @@ input[type=submit]:hover {
 
   .social_media{
     display: none;
-  }
-
-  .freediving_wrapper{
-    display: grid;
-    grid-template-columns: 1;
-    grid-auto-rows: auto;
   }
 
   .freediving_wrapper h2{
@@ -514,6 +511,9 @@ input[type=submit]:hover {
 
   /* ----------------- */
 
+  .big_menu a{
+    display: none;
+  }
   .hidden_menu{
     display: block;
     float: right;
@@ -558,7 +558,7 @@ input[type=submit]:hover {
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
+  }  
 
   .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -591,7 +591,7 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .col-25, .col-75, input[type=submit] {
-    width: 100%;
+    width: 95%;
     margin-top: 0;
   }
 }
