@@ -3,6 +3,8 @@
 ## 2019-10-27
 
 ### Eftermiddag
+- Fixat till alla sidor, inga fel eller varningar på någon av dem.
+- Nu behövs bara sociala medier hamna på bästa sätt i footern
 
 ### Förmiddag
 - Index med sociala medier icon fixade
