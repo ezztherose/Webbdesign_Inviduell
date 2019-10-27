@@ -7,6 +7,9 @@
   kladda upp layout samt skriv den simplelt
 - Fixat contact sidan
   Den är responsiv och fungerar bra
+- Fridykningssidan
+  Den är skapad... men den har inget innehåll.
+  Funderingar på hur jag skall desighna den på snyggaste sätt... Behöver lite insperation...
 
 ## Nytt 2019-10-26
 - om följand kod inte fungerar, ta bort den
