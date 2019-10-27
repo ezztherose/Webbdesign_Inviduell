@@ -47,7 +47,9 @@ table {
 	border-spacing: 0;
 }
 
+/* ======================================== */
 /* New css */
+/* ======================================== */
 
 body {
   margin: 0px 0px 30px 0px;
@@ -97,16 +99,6 @@ footer{
 }
 
 /* Navbar */
-li {
-  display: inline;
-
-
-}
-
-li:last-child {
-  border-right: none;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -131,28 +123,8 @@ ul {
   text-decoration: none;
   font-size: 18px;
 }
-
-li {
-  float: left;
-  padding: 10px;
-  margin: 5px;
-}
-
-li a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 5px;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-li a:hover {
-  background-color: aquamarine;
-}
-
 /* End of nav_bar */
-
+/* ======================================== */
 /* Social media icons */
 .social_media{
     grid-column: 9/10;
@@ -168,6 +140,9 @@ li a:hover {
   float: right;
 }
 
+/* ======================================== */
+/* Slider */
+/* ======================================== */
 .slider_container{
     max-width: 2000px;
     position: relative;
@@ -237,7 +212,9 @@ li a:hover {
   background-color: aqua;
 }
 
-
+/* ======================================== */
+/* IMG fixing */
+/* ======================================== */
 .pictures{
     width: 50%;
     height: 50%;
@@ -317,6 +294,10 @@ li a:hover {
   display: none;
 }
 
+.social_mini{
+  display: none;
+}
+
 
 /* MEDIA CONVERTION */
 @media (max-width: 1025px){
@@ -332,6 +313,7 @@ li a:hover {
     margin-right: 3%;
   }
 
+ 
   .logo{
     position: relative;
     float: left;
