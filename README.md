@@ -1,8 +1,10 @@
 # Inviduell uppgift
 
-## 2019-10-27: Eftermiddag
+## 2019-10-27
 
-## 2019-10-27: Förmiddag
+### 2019-10-27: Eftermiddag
+
+### 2019-10-27: Förmiddag
 - Index med sociala medier icon fixade
   Behöver finputsat lite mer, annars så är det bra
 - About - Fixa design
