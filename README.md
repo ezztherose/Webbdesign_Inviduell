@@ -1,5 +1,11 @@
 # Inviduell uppgift
 
+## 2019-10-27
+- Index med sociala medier icon fixade
+  Behöver finputsat lite mer, annars så är det bra
+- About - Fixa design
+  kladda upp layout samt skriv den simplelt
+
 ## Nytt 2019-10-26
 - om följand kod inte fungerar, ta bort den
 - < figure >

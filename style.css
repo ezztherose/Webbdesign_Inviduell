@@ -281,7 +281,8 @@ ul {
 }
 
 .footer_setter figure a img{
-  display: absolute;
+  display: block;
+  position: absolute;
   float: right;
   margin-right: 50%;
   width: 4%;
@@ -297,6 +298,14 @@ ul {
 .social_mini{
   display: none;
 }
+
+
+/* ======================================== */
+/* ---------------- ABOUT ----------------- */
+/* ======================================== */
+
+
+
 
 
 /* MEDIA CONVERTION */
