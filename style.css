@@ -292,7 +292,31 @@ ul {
 /* ======================================== */
 /* ---------------- ABOUT ----------------- */
 /* ======================================== */
+.article_text{
+  color: black;
+  grid-column: 2/10;
+  grid-row: 5;
+  margin: 5px;
+  padding: 5px;
+}
 
+.article_text p{
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.article_text h2{
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+#article_text_id_1{
+  background-color: rgba(155,155,155,0.5);
+}
+
+#article_text_id_2{
+  background-color: rgba(155,175,155,0.5);
+}
 
 
 
@@ -311,7 +335,18 @@ ul {
     margin-right: 3%;
   }
 
- 
+  .social_mini{
+    display: block;
+
+  }
+
+  .social_mini img{
+    width: 4%;
+    height: 4%;
+    position: relative;
+    text-align: center;
+  }
+
   .logo{
     position: relative;
     float: left;
