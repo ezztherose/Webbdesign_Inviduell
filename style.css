@@ -306,6 +306,8 @@ ul {
 .article_text h2{
   text-align: center;
   font-size: 2.5rem;
+  text-decoration: underline;
+  margin: 1rem;
 }
 
 #article_text_id_1{
@@ -315,6 +317,12 @@ ul {
 }
 
 #article_text_id_2{
+  background-color: rgba(155,155,155,0.5);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+#article_text_id_3{
   background-color: rgba(155,155,155,0.5);
   margin: 1rem;
   padding: 1rem;
@@ -387,14 +395,6 @@ input[type=submit]:hover {
   content: "";
   display: table;
   clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
 
 /* MEDIA CONVERTION */
@@ -474,6 +474,14 @@ input[type=submit]:hover {
 #main {
   transition: margin-left .5s;
   padding: 20px;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
