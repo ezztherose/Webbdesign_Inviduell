@@ -7,7 +7,7 @@
   ```
   Some information on the Cache-Control header is as follows
 
-  - HTTP 1.1. Allowed values = PUBLIC | PRIVATE | NO-CACHE | NO-STORE.
+  HTTP 1.1. Allowed values = PUBLIC | PRIVATE | NO-CACHE | NO-STORE.
 
     - Public - may be cached in public shared caches.
     - Private - may only be cached in private cache.
