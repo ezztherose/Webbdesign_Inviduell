@@ -1,5 +1,13 @@
 # Inviduell uppgift
 
+## Fix
+- Gjort om bildformat till mer anpassade 
+- Har resat upp onödiga bilder som skräpar runt
+- Lagt till meta-tag med cach (Den ska fungera?)
+- ```html
+  <meta http-equiv="Cache-controll" content="no-store">
+  ```
+
 ## Småfixar 2019-10-28
 
 ## 2019-10-27
