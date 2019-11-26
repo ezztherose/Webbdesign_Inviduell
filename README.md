@@ -1,7 +1,10 @@
 # Inviduell uppgift
 
-## Fix
-- Gjort om bildformat till mer anpassade 
+## Fixade 
+- Bilder: nerskalade från ca 5000x4000px till ca 400x200. Sparade som PNG för att hålla kvar kvaliten vid olika storlekar
+
+## Behöver fixas
+- Bilder till mer korrekta storlekar
 - Har resat upp onödiga bilder som skräpar runt
 - Lagt till meta-tag med cach (Den ska fungera?)
 - ```html
