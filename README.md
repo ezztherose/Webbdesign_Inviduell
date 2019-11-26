@@ -7,8 +7,9 @@
 - ```html
   <meta http-equiv="Cache-controll" content="no-store">
   ```
+- Konstiga frågor:
+  - Den föredrar "nex-gen format", JPEG 2000, JPEG XR och WebP... Dessa skall tydligen vara bättre komprimerade än PNG och JPEG. Skillnaden mellan dessa ligger runt 1-3KB. Ändras ett måste?
 
---
 
 ## Småfixar 2019-10-28
 
