@@ -31,6 +31,11 @@
     Clients SHOULD include both PRAGMA: NO-CACHE and CACHE-CONTROL: NO-CACHE when a no-cache request is sent to a server not known to be HTTP/1.1 compliant. Also see EXPIRES.
 
     Note: It may be better to specify cache commands in HTTP than in META statements, where they can influence more than the browser, but proxies and other intermediaries that may cache information.
+- Lösningen set ut att vara att sätta in:
+  ```html
+  <meta http-equiv="Cache-control" content="public">
+  ```
+  Detta tar bort laddning so skall sker på sidan.
 
 
 ## Behöver fixas
