@@ -8,6 +8,8 @@
   <meta http-equiv="Cache-controll" content="no-store">
   ```
 
+--
+
 ## Småfixar 2019-10-28
 
 ## 2019-10-27
