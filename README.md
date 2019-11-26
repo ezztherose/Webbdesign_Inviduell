@@ -9,6 +9,7 @@
   ```
 - Konstiga frågor:
   - Den föredrar "nex-gen format", JPEG 2000, JPEG XR och WebP... Dessa skall tydligen vara bättre komprimerade än PNG och JPEG. Skillnaden mellan dessa ligger runt 1-3KB. Ändras ett måste?
+  - Render-blocking resources: Skall CSS/JS ändras? 
 
 
 ## Småfixar 2019-10-28
@@ -37,7 +38,7 @@
       <a href=""><img src="./img/twitter.jpg" alt="twitter"></a>
     </figure>
     <figure>
-    <a href=""><img src="./img/instagram.jpg" alt="Instagram"></a>
+      <a href=""><img src="./img/instagram.jpg" alt="Instagram"></a>
     </figure>
     ```
 
