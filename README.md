@@ -7,12 +7,12 @@
   ```
   Some information on the Cache-Control header is as follows
 
-    HTTP 1.1. Allowed values = PUBLIC | PRIVATE | NO-CACHE | NO-STORE.
+  - HTTP 1.1. Allowed values = PUBLIC | PRIVATE | NO-CACHE | NO-STORE.
 
-    Public - may be cached in public shared caches.
-    Private - may only be cached in private cache.
-    No-Cache - may not be cached.
-    No-Store - may be cached but not archived.
+    - Public - may be cached in public shared caches.
+    - Private - may only be cached in private cache.
+    - No-Cache - may not be cached.
+    - No-Store - may be cached but not archived.
 
     The directive CACHE-CONTROL:NO-CACHE indicates cached information should not be used and instead requests should be forwarded to the origin server. This directive has the same semantics as the PRAGMA:NO-CACHE.
 
