@@ -2,7 +2,19 @@
 
 ## Fixade 
 - Bilder: nerskalade från ca 5000x4000px till ca 400x200. Sparade som PNG för att hålla kvar kvaliten vid olika storlekar
-- ```html
+- Prat om cache. Det bör finnas någon typ av cashe kontroll på sidan.
+  Implementerade foljande:
+  ```html
+  <meta http-equiv="Cache-controll" content="no-store">
+  ```
+
+  Den vill dock ha en cashe, skall man lägga till:
+  ```html
+  <meta http-equiv="Cache-control" content="public">
+  ```
+
+  Följande är tagen från stackoverflow:
+  ```html
   <meta http-equiv="Cache-control" content="public">
   ```
   Some information on the Cache-Control header is as follows
