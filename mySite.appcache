@@ -4,8 +4,7 @@ CACHE MANIFEST
 
 # Explicit cachade entiteter
 index.html
-css/main.css
-js/script.js
+
 
 # Extra resurser till cachen
 CACHE:
