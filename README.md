@@ -18,7 +18,8 @@ Om INTE en .htaccess fil existerar, gör föjlande:
 - skapa .htaccess fil
 - skriv i "AddType text/cache-manifest appcache"
 - spara
-Första steget är klart...
+Första steget är klart...\\
+nästa
 
 ## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
@@ -56,12 +57,3 @@ Implementerade foljande:
   <meta http-equiv="Cache-control" content="public">
   ```
   Detta tar bort laddning so skall sker på sidan.
-
-
-## Behöver fixas
-- Bilder till mer korrekta storlekar
-- Har resat upp onödiga bilder som skräpar runt
-- Lagt till meta-tag med cach (Den ska fungera?)
-- ```html
-  <meta http-equiv="Cache-controll" content="no-store">
-  ```
