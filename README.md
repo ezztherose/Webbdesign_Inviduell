@@ -1,4 +1,4 @@
-# Inviduell uppgift
+# Lathund 
 
 ## Skapa cache i HTML5 med manifest
 Lägg till:
@@ -13,7 +13,12 @@ Dessa filer skapas följande:
 - namn.appcache
 - .htaccess
 
-
+(i mitt fall finns redan en .htaccess-fil från boilerplaten)
+Om INTE en .htaccess fil existerar, gör föjlande:
+- skapa .htaccess fil
+- skriv i "AddType text/cache-manifest appcache"
+- spara
+Första steget är klart...
 
 ## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
