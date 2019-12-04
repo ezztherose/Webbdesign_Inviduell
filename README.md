@@ -13,7 +13,7 @@ Dessa filer skapas följande:
 - namn.appcache
 - .htaccess
 
-(i mitt fall finns redan en .htaccess-fil från boilerplaten)
+(i mitt fall finns redan en .htaccess-fil från boilerplaten)\
 Om INTE en .htaccess fil existerar, gör föjlande:
 - skapa .htaccess fil
 - skriv i "AddType text/cache-manifest appcache"
