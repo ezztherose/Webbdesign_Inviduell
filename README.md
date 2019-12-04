@@ -25,10 +25,18 @@ Skapa ny text-fil
 - efter namn lägg till ".appcache"
 
 ---
-***NOTE***
-hej
-- sakdasd
-- sdas
+***Innehåll .appcache***\
+CACHE MANIFEST
+
+#version (nummer)
+
+- Explicit cachade entiteter
+  + index.html
+
+- Extra resurser till cachen
+  + CACHE:
+  + img/slider_1_resize.png
+
 ---
 
 ## EJ Fungerande för HTML5
