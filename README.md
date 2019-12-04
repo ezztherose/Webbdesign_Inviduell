@@ -30,10 +30,10 @@ CACHE MANIFEST
 
 #version (nummer)
 
-- Explicit cachade entiteter
+  #Explicit cachade entiteter
   + index.html
 
-- Extra resurser till cachen
+  #Extra resurser till cachen
   + CACHE:
   + img/slider_1_resize.png
 
