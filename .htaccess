@@ -168,6 +168,8 @@ Options -MultiViews
     AddType application/manifest+json                   webmanifest
     AddType application/x-web-app-manifest+json         webapp
     AddType text/cache-manifest                         appcache
+  # Egen tillagd manifest referens
+	AddType text/cache-manifest 						manifest
 
 
   # Media files

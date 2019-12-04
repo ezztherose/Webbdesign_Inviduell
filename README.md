@@ -1,5 +1,15 @@
 # Inviduell uppgift
 
+## Skapa cache i HTML5 med manifest
+Lägg till:
+```html
+<html class="no-js" lang="sv" manifest="mySite.manifest">
+```
+mySite kan döpas om till vad man önskar.
+- Skapa fil med .manifest
+- Fyll i de filer som skall chachas
+Länka .manifest filen till .htaccess filen
+
 ## Fixade 
 - Bilder: nerskalade från ca 5000x4000px till ca 400x200. Sparade som PNG för att hålla kvar kvaliten vid olika storlekar
 - Prat om cache. Det bör finnas någon typ av cashe kontroll på sidan.

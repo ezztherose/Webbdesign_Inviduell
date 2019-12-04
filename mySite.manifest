@@ -1,0 +1,20 @@
+CACHE MANIFEST
+
+# Version 0.1
+
+# Explicit cachade entiteter
+index.html
+css/main.css
+js/script.js
+
+# Extra resurser till cachen
+CACHE:
+img/slider_1_resize.png
+img/slider_2_resize.png
+img/slider_3_resize.png
+img/text_1_resize.png
+img/text_2_resize.png
+img/text_3_resize.png
+img/twitter_resize.png
+img/instagram_resize.png
+img/logo_resize.png
