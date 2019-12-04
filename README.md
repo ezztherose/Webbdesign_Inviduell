@@ -18,7 +18,7 @@ Om INTE en .htaccess fil existerar, gör föjlande:
 - skapa .htaccess fil
 - skriv i "AddType text/cache-manifest appcache"
 - spara
-Första steget är klart...\\
+Första steget är klart...  
 nästa
 
 ## EJ Fungerande för HTML5
