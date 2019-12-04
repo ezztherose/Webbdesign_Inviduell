@@ -10,7 +10,10 @@ Taggen ligger lokaliserad högst upp i html filen.
 ### Skapa filerna
 Det behövs skapas två filer för att kunna använda sig av cachen. 
 Dessa filer skapas följande:
-- 
+- namn.appcache
+- .htaccess
+
+
 
 ## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
