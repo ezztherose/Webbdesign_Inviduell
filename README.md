@@ -5,11 +5,14 @@ Lägg till:
 ```html
 <html class="no-js" lang="sv" manifest="mySite.manifest">
 ```
-mySite kan döpas om till vad man önskar.
-- Skapa fil med .manifest
-- Fyll i de filer som skall chachas
-Länka .manifest filen till .htaccess filen
+Taggen ligger lokaliserad högst upp i html filen.
 
+### Skapa filerna
+Det behövs skapas två filer för att kunna använda sig av cachen. 
+Dessa filer skapas följande:
+- 
+
+## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
 Implementerade foljande:
   ```html
@@ -39,6 +42,7 @@ Implementerade foljande:
     Clients SHOULD include both PRAGMA: NO-CACHE and CACHE-CONTROL: NO-CACHE when a no-cache request is sent to a server not known to be HTTP/1.1 compliant. Also see EXPIRES.
 
     Note: It may be better to specify cache commands in HTTP than in META statements, where they can influence more than the browser, but proxies and other intermediaries that may cache information.
+
 - Lösningen set ut att vara att sätta in:
   ```html
   <meta http-equiv="Cache-control" content="public">
