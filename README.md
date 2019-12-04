@@ -3,15 +3,15 @@
 ## Skapa cache i HTML5 med manifest
 Lägg till:
 ```html
-<html class="no-js" lang="sv" manifest="mySite.manifest">
+<html class="no-js" lang="sv" manifest="site.appcache">
 ```
 Taggen ligger lokaliserad högst upp i html filen.
 
 ### Skapa filerna
 Det behövs skapas två filer för att kunna använda sig av cachen. 
 Dessa filer skapas följande:
-- namn.appcache
 - .htaccess
+- namn.appcache
 
 (i mitt fall finns redan en .htaccess-fil från boilerplaten)\
 Om INTE en .htaccess fil existerar, gör föjlande:
@@ -19,7 +19,15 @@ Om INTE en .htaccess fil existerar, gör föjlande:
 - skriv i "AddType text/cache-manifest appcache"
 - spara
 Första steget är klart...  
-nästa
+  
+Skapa ny text-fil
+- Ge den valfritt namn
+- efter namn lägg till ".appcache"
+
+---
+**NOTE**
+hej
+---
 
 ## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
