@@ -25,8 +25,10 @@ Skapa ny text-fil
 - efter namn lägg till ".appcache"
 
 ---
-**NOTE**
+***NOTE***
 hej
+- sakdasd
+- sdas
 ---
 
 ## EJ Fungerande för HTML5
