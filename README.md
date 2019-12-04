@@ -36,8 +36,8 @@ CACHE MANIFEST
   #Extra resurser till cachen
   + CACHE:
   + img/slider_1_resize.png
-
 ---
+Ovan är exemple, fyll ut efter egna sidor...
 
 ## EJ Fungerande för HTML5
 Följande fungerar inte för HTML5:
