@@ -39,8 +39,8 @@ CACHE MANIFEST
 
   #Filer som listas i denna del kan komma från nätverket om de inte befinner sig i cachen,\
   nätverket används inte annars om även om användaren är online.\
-  Man kan "white" lista URL:er eller använda "*", vilket tillåter alla URL:er.\
-  De flesta sidor behöver "*".
+  Man kan "white" lista URL:er eller använda *, vilket tillåter alla URL:er.\
+  De flesta sidor behöver *.
   + NETWORK:
   + *
 ---
