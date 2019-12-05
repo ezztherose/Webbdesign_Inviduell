@@ -1,7 +1,7 @@
 # Lathund 
 
 ## Skapa cache i HTML5 med manifest
-Lägg till:
+Lägg till följande rad för alla sidor som man vill ska vara cachade.
 ```html
 <html class="no-js" lang="sv" manifest="site.appcache">
 ```
