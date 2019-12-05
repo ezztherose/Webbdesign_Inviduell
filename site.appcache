@@ -2,8 +2,6 @@ CACHE MANIFEST
 
 # Version 2.0
 
-cache-Control: max-age=3600
-
 # Explicit cachade entiteter
 index.html
 css/main.css
