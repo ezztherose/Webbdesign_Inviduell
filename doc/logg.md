@@ -4,9 +4,14 @@
 Lagt till fungerande cache till sidan (tillvägagångssätt finns i README filen).\
 Det som tog tid var att förstå hur man skulle lägga till allt.\
 https://www.html5rocks.com/en/tutorials/appcache/beginner/ \
-Denna läken beskrivaer allt i detalj hur man skall gå tillväga på ett enkelt sätt.
+Denna läken beskrivaer allt i detalj hur man skall gå tillväga på ett enkelt sätt.\
 
+Det var två filer som behövdes:
+- En .appcache fil
+- En .htaccess fil
 
+I dessa filer fylls för att tvinga webbläsaren att cacha filer.\
+Detta tog lång tid att komma fram till...
 
 ## Fixade 
 - Bilder: nerskalade från ca 5000x4000px till ca 400x200. Sparade som PNG för att hålla kvar kvaliten vid olika storlekar
