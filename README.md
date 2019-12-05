@@ -36,6 +36,13 @@ CACHE MANIFEST
   #Extra resurser till cachen
   + CACHE:
   + img/slider_1_resize.png
+
+  #Filer som listas i denna del kan komma från nätverket om de inte befinner sig i cachen,\
+  nätverket används inte annars om även om användaren är online.\
+  Man kan "white" lista URL:er eller använda '*', vilket tillåter alla URL:er.\
+  De flesta sidor behöver '*'.
+  + NETWORK:
+  + *
 ---
 Ovan är exemple, fyll ut efter egna sidor...
 
