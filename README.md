@@ -34,8 +34,8 @@ CACHE MANIFEST
   + index.html
 
   #Extra resurser till cachen
-  + CACHE:
-  + img/slider_1_resize.png
+  + CACHE:\
+    img/slider_1_resize.png
 
   #Filer som listas i denna del kan komma från nätverket om de inte befinner sig i cachen,\
   nätverket används inte annars om även om användaren är online.\
