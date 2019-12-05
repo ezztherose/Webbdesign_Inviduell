@@ -18,3 +18,8 @@ img/text_3_resize.png
 img/logo_resize.png
 img/instagram_resize.png
 img/twitter_resize.png
+
+# Filer från nätverket om de inte är cachade
+NETWORK:
+*
+
