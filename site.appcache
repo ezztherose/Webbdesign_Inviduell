@@ -6,9 +6,7 @@ CACHE MANIFEST
 index.html
 css/main.css
 js/script.js
-pages/about.html
-pages/contact.html
-pages/freediving.html
+
 
 # Extra resurser till cachen
 CACHE:
