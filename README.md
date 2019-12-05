@@ -41,8 +41,8 @@ CACHE MANIFEST
   nätverket används inte annars om även om användaren är online.\
   Man kan "white" lista URL:er eller använda *, vilket tillåter alla URL:er.\
   De flesta sidor behöver *.
-  + NETWORK:
-  + *
+  + NETWORK:\
+    *
 ---
 Ovan är exemple, fyll ut efter egna sidor...
 
