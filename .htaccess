@@ -169,7 +169,8 @@ Options -MultiViews
     AddType application/x-web-app-manifest+json         webapp
     AddType text/cache-manifest                         appcache
   # Egen tillagd manifest referens
-	AddType text/cache-manifest 						manifest
+	  AddType text/cache-manifest 						             manifest
+    AddType text/cache-manifest 						            .appcache
 
 
   # Media files
