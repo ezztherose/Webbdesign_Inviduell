@@ -4,12 +4,11 @@ CACHE MANIFEST
 
 # Explicit cachade entiteter
 index.html
-css/main.css
-js/script.js
 pages/about.html
 pages/contact.html
 pages/freediving.html
-
+css/main.css
+js/script.js
 
 # Extra resurser till cachen
 CACHE:
