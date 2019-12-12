@@ -1025,6 +1025,10 @@ ServerSignature Off
 #
 # https://developers.google.com/speed/pagespeed/module/configuration#notransform
 
+################################################
+#                 Eget tillagd                 #
+################################################
+
 # <IfModule mod_headers.c>
 #     Header merge Cache-Control "no-transform"
 #     # 2 HOURS
